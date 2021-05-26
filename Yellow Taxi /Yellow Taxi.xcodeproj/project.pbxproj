@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		385F082A2614D3D700674ACF /* YellowTaxiUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F08292614D3D700674ACF /* YellowTaxiUserDefaults.swift */; };
+		385F082D2614DE6000674ACF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F082C2614DE6000674ACF /* LoginViewController.swift */; };
+		385F08302614E43000674ACF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F082F2614E43000674ACF /* User.swift */; };
+		385F08332614F45300674ACF /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F08322614F45300674ACF /* HomeScreenViewController.swift */; };
+		385F083626150FB100674ACF /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F083526150FB100674ACF /* CityTableViewCell.swift */; };
+		385F083F261529FB00674ACF /* CityDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F083E261529FB00674ACF /* CityDetailsModel.swift */; };
+		385F086D2617981900674ACF /* CityDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F086C2617981900674ACF /* CityDataHandler.swift */; };
+		385F08A3261A2E6A00674ACF /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F08A2261A2E6A00674ACF /* SplashViewController.swift */; };
+		385F08B3261A4C9D00674ACF /* DestinationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F08B2261A4C9D00674ACF /* DestinationDetailsViewController.swift */; };
+		385F08B6261A53B400674ACF /* ImageViewCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385F08B5261A53B400674ACF /* ImageViewCollectionCell.swift */; };
+		385F08D4261C1DBD00674ACF /* Cosmos in Frameworks */ = {isa = PBXBuildFile; productRef = 385F08D3261C1DBD00674ACF /* Cosmos */; };
+		38BBF21C2613CF8700D1F5F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BBF21B2613CF8700D1F5F9 /* AppDelegate.swift */; };
+		38BBF21E2613CF8700D1F5F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BBF21D2613CF8700D1F5F9 /* SceneDelegate.swift */; };
+		38BBF2232613CF8700D1F5F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38BBF2212613CF8700D1F5F9 /* Main.storyboard */; };
+		38BBF2252613CF8800D1F5F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38BBF2242613CF8800D1F5F9 /* Assets.xcassets */; };
+		38BBF2282613CF8800D1F5F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38BBF2262613CF8800D1F5F9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		385F08292614D3D700674ACF /* YellowTaxiUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowTaxiUserDefaults.swift; sourceTree = "<group>"; };
+		385F082C2614DE6000674ACF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		385F082F2614E43000674ACF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		385F08322614F45300674ACF /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		385F083526150FB100674ACF /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+		385F083E261529FB00674ACF /* CityDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailsModel.swift; sourceTree = "<group>"; };
+		385F086C2617981900674ACF /* CityDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDataHandler.swift; sourceTree = "<group>"; };
+		385F08A2261A2E6A00674ACF /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		385F08B2261A4C9D00674ACF /* DestinationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationDetailsViewController.swift; sourceTree = "<group>"; };
+		385F08B5261A53B400674ACF /* ImageViewCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCollectionCell.swift; sourceTree = "<group>"; };
+		38BBF2182613CF8700D1F5F9 /* Yellow Taxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yellow Taxi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BBF21B2613CF8700D1F5F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38BBF21D2613CF8700D1F5F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		38BBF2222613CF8700D1F5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38BBF2242613CF8800D1F5F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38BBF2272613CF8800D1F5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38BBF2292613CF8800D1F5F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38BBF2152613CF8700D1F5F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385F08D4261C1DBD00674ACF /* Cosmos in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		385F08382615227400674ACF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				385F08A2261A2E6A00674ACF /* SplashViewController.swift */,
+				385F082C2614DE6000674ACF /* LoginViewController.swift */,
+				385F08322614F45300674ACF /* HomeScreenViewController.swift */,
+				385F083526150FB100674ACF /* CityTableViewCell.swift */,
+				385F08B2261A4C9D00674ACF /* DestinationDetailsViewController.swift */,
+				385F08B5261A53B400674ACF /* ImageViewCollectionCell.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		385F0839261522B500674ACF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				385F083E261529FB00674ACF /* CityDetailsModel.swift */,
+				385F082F2614E43000674ACF /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		385F083A261522F000674ACF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				385F086C2617981900674ACF /* CityDataHandler.swift */,
+				385F08292614D3D700674ACF /* YellowTaxiUserDefaults.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		38BBF20F2613CF8700D1F5F9 = {
+			isa = PBXGroup;
+			children = (
+				38BBF21A2613CF8700D1F5F9 /* Yellow Taxi */,
+				38BBF2192613CF8700D1F5F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38BBF2192613CF8700D1F5F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38BBF2182613CF8700D1F5F9 /* Yellow Taxi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38BBF21A2613CF8700D1F5F9 /* Yellow Taxi */ = {
+			isa = PBXGroup;
+			children = (
+				385F083A261522F000674ACF /* Data */,
+				385F0839261522B500674ACF /* Model */,
+				385F08382615227400674ACF /* ViewController */,
+				38BBF21B2613CF8700D1F5F9 /* AppDelegate.swift */,
+				38BBF2212613CF8700D1F5F9 /* Main.storyboard */,
+				38BBF2262613CF8800D1F5F9 /* LaunchScreen.storyboard */,
+				38BBF21D2613CF8700D1F5F9 /* SceneDelegate.swift */,
+				38BBF2242613CF8800D1F5F9 /* Assets.xcassets */,
+				38BBF2292613CF8800D1F5F9 /* Info.plist */,
+			);
+			path = "Yellow Taxi";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38BBF2172613CF8700D1F5F9 /* Yellow Taxi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38BBF22C2613CF8800D1F5F9 /* Build configuration list for PBXNativeTarget "Yellow Taxi" */;
+			buildPhases = (
+				38BBF2142613CF8700D1F5F9 /* Sources */,
+				38BBF2152613CF8700D1F5F9 /* Frameworks */,
+				38BBF2162613CF8700D1F5F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yellow Taxi";
+			packageProductDependencies = (
+				385F08D3261C1DBD00674ACF /* Cosmos */,
+			);
+			productName = "Yellow Taxi";
+			productReference = 38BBF2182613CF8700D1F5F9 /* Yellow Taxi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38BBF2102613CF8700D1F5F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					38BBF2172613CF8700D1F5F9 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 38BBF2132613CF8700D1F5F9 /* Build configuration list for PBXProject "Yellow Taxi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38BBF20F2613CF8700D1F5F9;
+			packageReferences = (
+				385F08D2261C1DBD00674ACF /* XCRemoteSwiftPackageReference "Cosmos" */,
+			);
+			productRefGroup = 38BBF2192613CF8700D1F5F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38BBF2172613CF8700D1F5F9 /* Yellow Taxi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38BBF2162613CF8700D1F5F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BBF2282613CF8800D1F5F9 /* LaunchScreen.storyboard in Resources */,
+				38BBF2252613CF8800D1F5F9 /* Assets.xcassets in Resources */,
+				38BBF2232613CF8700D1F5F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38BBF2142613CF8700D1F5F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385F083F261529FB00674ACF /* CityDetailsModel.swift in Sources */,
+				385F086D2617981900674ACF /* CityDataHandler.swift in Sources */,
+				385F082A2614D3D700674ACF /* YellowTaxiUserDefaults.swift in Sources */,
+				385F08B3261A4C9D00674ACF /* DestinationDetailsViewController.swift in Sources */,
+				385F08302614E43000674ACF /* User.swift in Sources */,
+				385F08B6261A53B400674ACF /* ImageViewCollectionCell.swift in Sources */,
+				38BBF21C2613CF8700D1F5F9 /* AppDelegate.swift in Sources */,
+				385F082D2614DE6000674ACF /* LoginViewController.swift in Sources */,
+				38BBF21E2613CF8700D1F5F9 /* SceneDelegate.swift in Sources */,
+				385F083626150FB100674ACF /* CityTableViewCell.swift in Sources */,
+				385F08332614F45300674ACF /* HomeScreenViewController.swift in Sources */,
+				385F08A3261A2E6A00674ACF /* SplashViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38BBF2212613CF8700D1F5F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38BBF2222613CF8700D1F5F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38BBF2262613CF8800D1F5F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38BBF2272613CF8800D1F5F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38BBF22A2613CF8800D1F5F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38BBF22B2613CF8800D1F5F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38BBF22D2613CF8800D1F5F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Yellow Taxi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mayankarya.Yellow-Taxi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		38BBF22E2613CF8800D1F5F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Yellow Taxi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mayankarya.Yellow-Taxi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38BBF2132613CF8700D1F5F9 /* Build configuration list for PBXProject "Yellow Taxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BBF22A2613CF8800D1F5F9 /* Debug */,
+				38BBF22B2613CF8800D1F5F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38BBF22C2613CF8800D1F5F9 /* Build configuration list for PBXNativeTarget "Yellow Taxi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BBF22D2613CF8800D1F5F9 /* Debug */,
+				38BBF22E2613CF8800D1F5F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		385F08D2261C1DBD00674ACF /* XCRemoteSwiftPackageReference "Cosmos" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/Cosmos.git";
+			requirement = {
+				kind = exactVersion;
+				version = 22.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		385F08D3261C1DBD00674ACF /* Cosmos */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 385F08D2261C1DBD00674ACF /* XCRemoteSwiftPackageReference "Cosmos" */;
+			productName = Cosmos;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 38BBF2102613CF8700D1F5F9 /* Project object */;
+}
