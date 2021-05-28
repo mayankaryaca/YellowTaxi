@@ -6,6 +6,7 @@ Sample user -
 
 Username -  thanos@gmail.com Password -  5555
 
+Application Details
 
 Yellow taxi is an application which displays the city attractions of New York. A user can login and collect details about the selected locations. There are multiple images through which user can scroll through and checkout the destination.
 
