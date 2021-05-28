@@ -2,6 +2,17 @@
 # YellowTaxi
 IOS Project
 
+Sample user - 
+
+Username -  thanos@gmail.com Password -  5555
+
+
+Yellow taxi is an application which displays the city attractions of New York. A user can login and collect details about the selected locations. There are multiple images through which user can scroll through and checkout the destination.
+
+The user can also add ratings for the locations they visited.
+
+The data is written in a JSON file local to app.
+
 ![Simulator Screen Shot - iPhone 11 Pro - 2021-05-28 at 13 31 58](https://user-images.githubusercontent.com/78885735/120021583-41479f80-bfb9-11eb-85f6-112fef6b32db.png)
 
 ![Simulator Screen Shot - iPhone 11 Pro - 2021-05-28 at 13 32 12](https://user-images.githubusercontent.com/78885735/120021601-46a4ea00-bfb9-11eb-9d7a-55bc264f35c9.png)
